@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Gilders</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .category {
+            width: 30%;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.2s ease;
+        }
+
+        .category:hover {
+            transform: scale(1.05);
+        }
+
+        .category img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .category h2 {
+            margin-top: 10px;
+        }
+
+        .category p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Professional Gilders</h1>
+        <p>Your source for all things gilding!</p>
+    </div>
+
+    <div class="container">
+        <div class="category">
+            <img src="professional_gilder_image.jpg" alt="Professional Gilder">
+            <h2>Professional Gilders</h2>
+            <p>Discover the work of skilled professional gilders, masters of the craft who create stunning gilded masterpieces.</p>
+        </div>
+
+        <div class="category">
+            <img src="gilding_materials_image.jpg" alt="Gilding Materials and Supplies">
+            <h2>Gilding Materials and Supplies</h2>
+            <p>Explore a wide range of high-quality gilding materials and supplies for your gilding projects.</p>
+        </div>
+
+        <div class="category">
+            <img src="beginner_gilders_image.jpg" alt="Beginners and Amateurs">
+            <h2>Beginners and Amateurs</h2>
+            <p>Get started with gilding! Learn the basics and join the community of aspiring gilders.</p>
+        </div>
+    </div>
+</body>
+</html>
