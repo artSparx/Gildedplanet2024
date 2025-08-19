@@ -33,3 +33,12 @@ videos/
 *.tiff
 *.mp4
 *.mov
+videos/
+raw_assets/
+backups/
+*.psd
+*.tif
+*.tiff
+*.zip
+*.mp4
+*.mov
