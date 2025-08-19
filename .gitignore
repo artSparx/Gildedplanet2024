@@ -42,3 +42,22 @@ backups/
 *.zip
 *.mp4
 *.mov
+
+# ---- repo hygiene (added by code-audit) ----
+# Archives / backups / raw assets
+backups/
+**/backup*/
+**/*.bak
+**/*.zip
+**/*.7z
+**/*.rar
+raw_assets/
+RAW_ASSETS/
+uploads_raw/
+videos/
+**/*.psd
+**/*.ai
+**/*.tif
+**/*.tiff
+**/*.mp4
+**/*.mov
