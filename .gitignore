@@ -1,43 +1,35 @@
-# macOS junk
+# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Build/output & caches
+# Logs
+*.log
+
+# Package managers (if you ever use them)
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Build output (if any)
 dist/
 build/
 .cache/
 .tmp/
-*.log
 
-# Node / package managers
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Dependency locks (optional—keep if you want exact versions)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
-
-# Editors/IDEs
-.vscode/
-.idea/
-
-# Website uploads/backups you don't need in Git
-uploads_raw/
+# Backups & archives
 backups/
 *.bak
 *.zip
 *.7z
 *.rar
 
-# Images you don’t want to version (raw)
+# Large/raw assets you usually don't want in git
+raw_assets/
 RAW_ASSETS/
+videos/
+*.psd
+*.ai
 *.tif
 *.tiff
-*.psb
-
-# System & misc
-Thumbs.db
+*.mp4
+*.mov
